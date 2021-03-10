@@ -83,7 +83,7 @@
                         <div class="col-lg-4 col-md-12 col-sm-12 form-group" data-for="email">
                             <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form8-y">
                         </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center"><button type="submit" class="btn btn-primary display-4">Submit</button></div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center"><button type="submit" class="btn btn-primary display-4" onclick="clicked1()">Submit</button></div>
                     </div>
                 </form>
             </div>
@@ -127,7 +127,7 @@ function clicked1() {
   var email = document.getElementById("email-form8-11").value;
 
   var url = base + name + "/" + email + "geodownload" + "gld"
-  console.log(url)
+
   window.location.href = url
 }
 
