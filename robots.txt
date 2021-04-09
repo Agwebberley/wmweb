@@ -1,0 +1,7 @@
+User-agent: googlebot
+Disallow: /sample/
+Disallow: /Complete/
+Disallow: /Ghsa7GYUsag2/
+Disallow: /7gSDG67DSFsd/
+Disallow: a2ld/
+Disallow: assets/
