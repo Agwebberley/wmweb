@@ -7,15 +7,18 @@
   <meta name="generator" content="Mobirise v5.2.0, mobirise.com">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/webbmath-logo-121x121.png" type="image/x-icon">
-  <meta name="description" content="Full year home school Algebra 1 Course for High School.">
+  <meta name="description" content="">
   
   
-  <title>Algebra 1</title>
+  <title>Thank You For Purchasing</title>
   <link rel="stylesheet" href="assets/tether/tether.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.css">
+  <link rel="stylesheet" href="assets/formstyler/jquery.formstyler.theme.css">
+  <link rel="stylesheet" href="assets/datepicker/jquery.datetimepicker.min.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
@@ -26,7 +29,7 @@
 </head>
 <body>
   
-  <section class="menu cid-s48OLK6784" once="menu" id="menu1-1a">
+  <section class="menu cid-snTYsBjpnh" once="menu" id="menu1-z">
     
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
         <div class="container">
@@ -58,25 +61,40 @@
 
 </section>
 
-<section class="header2 cid-soWCtIlq6d mbr-fullscreen mbr-parallax-background" id="header2-1b">
-
+<section class="form8 cid-snUhEm4Jcu" id="form8-11">
     
-
-    <div class="mbr-overlay" style="opacity: 0.8; background-color: rgb(255, 255, 255);"></div>
-
+    
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 col-lg-7">
-                <h1 class="mbr-section-title mbr-fonts-style mb-3 display-1"><strong>Algebra 1</strong><br><strong>Available&nbsp;For Pre-Order</strong></h1>
-                
-                <p class="mbr-text mbr-fonts-style display-7">Algebra 1 is currently under construction and should be complete by Fall 2021.</p>
-                <div class="mbr-section-btn mt-3"><a class="btn btn-success display-4" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=4W6BQ8F8NN8Z2">Pre-Order</a></div>
+        <div class="mbr-section-head">
+            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                <strong>Do NOT Close This Page</strong></h3>
+            <h4 class="mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2 display-5">
+                To get Download input name and Email address</h4>
+        </div>
+        <div class="row justify-content-center mt-4">
+            <div class="col-lg-8 mx-auto mbr-form">
+
+                    <div class="">
+                        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some problem!</div>
+                    </div>
+                    <div class="dragArea row">
+                        <div class="col-lg-4 col-md-12 col-sm-12 form-group" data-for="name">
+                            <input type="text" name="name" placeholder="Name" data-form-field="name" class="form-control" value="" id="name-form8-11">
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 form-group" data-for="email">
+                            <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form8-11">
+                        </div>
+                        <div class="col-lg-4 col-md-12 col-sm-12 mbr-section-btn align-center">
+                            <button type="submit" class="btn btn-primary display-4" onclick="clicked1()">Submit</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 </section>
 
-<section class="footer3 cid-snTYPostxI" once="footers" id="footer3-19">
+<section class="footer3 cid-snTYPostxI" once="footers" id="footer3-10">
 
     
 
@@ -103,7 +121,23 @@
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/u" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;"><a href="https://mobirise.site/q" style="color:#aaa;">This page</a> was started with Mobirise site theme</p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/parallax/jarallax.min.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/theme/js/script.js"></script>  
+
+
+<script type="text/javascript">
+
+function clicked1() {
+  var base = "http://agwebberley.pythonanywhere.com/wm/Algebra1/"
+  var name = document.getElementById("name-form8-11").value;
+  var email = document.getElementById("email-form8-11").value;
+
+  var url = base + "/" + email
+  
+  window.location.href = url
+}
+
+</script>
+
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/j" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Created with Mobirise - <a href="https://mobirise.site/m" style="color:#aaa;">Check it</a></p></section><script src="assets/web/assets/jquery/jquery.min.js"></script>  <script src="assets/popper/popper.min.js"></script>  <script src="assets/tether/tether.min.js"></script>  <script src="assets/bootstrap/js/bootstrap.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/dropdown/js/nav-dropdown.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>  <script src="assets/formstyler/jquery.formstyler.js"></script>  <script src="assets/formstyler/jquery.formstyler.min.js"></script>  <script src="assets/datepicker/jquery.datetimepicker.full.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
 </body>
