@@ -3,5 +3,6 @@ Disallow: /sample/
 Disallow: /Complete/
 Disallow: /Ghsa7GYUsag2/
 Disallow: /7gSDG67DSFsd/
+Disallow: /48sdAs4889a/
 Disallow: /a2ld/
 Disallow: /assets/
